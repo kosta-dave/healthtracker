@@ -17,7 +17,7 @@
         <item name="colorOutline">@color/white_alpha_30</item>
         <item name="colorError">@color/errorred</item>
     </style>
-    <style name="Widget.MyApp.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+    <style name="Widget.MyApp.Toolbar" parent="Widget.Material3.Toolbar">
 
         <item name="logo">@drawable/ic_logo</item>
         <item name="android:background">?attr/colorPrimary</item>
