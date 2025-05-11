@@ -41,6 +41,9 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity"/>
         </activity>
+        <activity
+            android:name=".StatisticsActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

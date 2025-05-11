@@ -81,5 +81,6 @@ dependencies {
     implementation(libs.gson)
     implementation(libs.androidx.activity.ktx.v180)
     implementation(libs.androidx.lifecycle.runtime.ktx.v262)
+    implementation(libs.mpandroidchart)
 
 }

@@ -16,6 +16,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://jitpack.io") } // Добавляем JitPack для MPAndroidChart
+    }
+    versionCatalogs {
+        val libs by creating {
+            // Явное объявление без файла
+            version("mpandroidchart", "3.1.0")
+            library("mpandroidchart", "com.github.PhilJay", "MPAndroidChart").versionRef("mpandroidchart")
+        }
     }
 }
 

@@ -23,6 +23,7 @@ constraintlayout = "2.2.1"
 filamentAndroid = "1.17.1"
 adapters = "3.2.0-alpha11"
 materialVersion = "1.6.1"
+mpandroidchart = "v3.1.0"
 recyclerview = "1.4.0"
 roomRuntime = "2.7.1"
 
@@ -61,6 +62,7 @@ filament-android = { group = "com.google.ar.sceneform", name = "filament-android
 androidx-adapters = { group = "androidx.databinding", name = "adapters", version.ref = "adapters" }
 material-v161 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 material-v190 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+mpandroidchart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpandroidchart" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

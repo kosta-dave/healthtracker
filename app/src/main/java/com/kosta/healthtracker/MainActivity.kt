@@ -111,6 +111,10 @@ class MainActivity : AppCompatActivity() {
                 toggleTheme()
                 true
             }
+            R.id.action_stats -> {
+                startActivity(Intent(this, StatisticsActivity::class.java))
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
